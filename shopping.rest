@@ -1,0 +1,13 @@
+### List shopping items
+GET http://localhost:2000/shopping-items
+
+### Create new shopping item
+POST http://localhost:2000/shopping-items
+Content-Type: application/json
+
+{
+    "name": "pollo"
+}
+
+### Remove shopping item
+DELETE http://localhost:2000/shopping-items/887a01cc-3dff-45d1-b15a-3863cb4cab66
